@@ -12,3 +12,4 @@ for i in range(n):
 for i in range(n-1)[::-1]:
     ar=a[i][:n-1]
     print(*(a[i]+ar[::-1]) )
+
