@@ -12,4 +12,8 @@ for i in range(1,n+2):
     print()
 
 
- 
+#  enter number : 3
+# *1
+# 21*
+# *123
+# 4321*

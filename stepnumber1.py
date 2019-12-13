@@ -8,3 +8,6 @@ if arr[len(arr)-2]-arr[len(arr)-1] != 1:
     print("NO")
 else:
     print("YES")
+
+# enter a number : 12124355
+# NO

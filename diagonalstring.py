@@ -20,3 +20,10 @@ for i in range(l):
 
 for i in range(n):
     print(a[i])
+
+# output
+# enter a string : saikrishna
+# enter number : 3
+# ['s', ' ', ' ', ' ', 'r', ' ', ' ', ' ', 'n', ' ']
+# [' ', 'a', ' ', 'k', ' ', 'i', ' ', 'h', ' ', 'a']
+# [' ', ' ', 'i', ' ', ' ', ' ', 's', ' ', ' ', ' ']

@@ -25,3 +25,9 @@ def fun(s, n):
 s = input("enter a string : ")
 n = int(input("enter number : "))
 fun(s, n) 
+
+
+# enter a string : sairishna
+# enter number : 2
+# s   i   i   h   a
+#   a   r   s   n

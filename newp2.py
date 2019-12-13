@@ -10,7 +10,7 @@ n = int(input("enter a number : "))
         
 a = [[" " for i in range(n)]for j in range(n)]
 
-for i in range(n+1):
+for i in range(0,n):
     for j in range(1,i+1):
         k=1
         a[i][j]=str(k)
@@ -18,3 +18,10 @@ for i in range(n+1):
 
 for i in range(n):
     print(a[i])
+
+
+# enter a number : 4
+# [' ', ' ', ' ', ' ']
+# [' ', '1', ' ', ' ']
+# [' ', '1', '1', ' ']
+# [' ', '1', '1', '1']

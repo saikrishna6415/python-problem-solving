@@ -8,5 +8,3 @@ for j in range(len(a)):
 for i in range(len(a)):
     print(a[i])
 
-# for i in range(n):
-#     print((i+2)*" " + "*"+ (n-2)*" "+ " "*i) 

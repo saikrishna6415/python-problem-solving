@@ -6,3 +6,11 @@ for i in range(n):
         print(a%2,end="")
         a+=1
     print()
+
+
+# enter number : 5
+# 1
+# 01
+# 010
+# 1010
+# 10101

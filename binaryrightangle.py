@@ -7,3 +7,13 @@ for i in range(n):
         else:
             print(0,end="")
     print()
+
+# OUTPUT
+# enter number : 7
+
+# 1
+# 10
+# 101
+# 1010
+# 10101
+# 101010

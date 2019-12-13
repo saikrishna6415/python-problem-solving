@@ -5,3 +5,9 @@ for i in range(1,n+1):
         print(0,end="")
     print(i)
 
+# enter number : 5
+# 1
+# 02
+# 003
+# 0004
+# 00005

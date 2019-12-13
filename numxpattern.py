@@ -9,5 +9,14 @@ for i in range(n):
 for i in range(n//2+1):
     print(*a[i])
 
+
 for i in range(n//2+1,n):
     print(*a[i][::-1])
+
+
+# enter a number: 5
+# 5       1
+#   4   2
+#     3
+#   2   4
+# 1       5

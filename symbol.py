@@ -5,3 +5,7 @@ for i in range(n):
         print("* ",end="")
     else:
         print("# ",end="")
+    
+
+# enter number : 4
+# * # * #

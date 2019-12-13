@@ -5,3 +5,19 @@ for  i in range(n*4):
     else:
         print(" *"+ 5*(" ") +"*",end=" ")
     print(" ")
+
+
+# output
+# enter a number : 3
+#  * * * *
+#  *     *
+#  *     *
+#  *     *
+#  * * * *
+#  *     *
+#  *     *
+#  *     *
+#  * * * *
+#  *     *
+#  *     *
+#  *     *

@@ -7,3 +7,10 @@ for i in range(n):
         else:
             print("  ",end="")
     print()
+
+# enter a  number : 5
+# 1 1 1 1 1
+# 1       1
+# 1       1
+# 1       1
+# 1 1 1 1 1
