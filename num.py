@@ -6,6 +6,13 @@ for i in range(1,n+1):
         for j in range(1,i+1):
             print(j ,end="")
     else:
-        for j in range(1,i+1):
+        for j in range(i,0,-1):
             print(j,end="")
-        print("*")
+        print("*",end="")
+    print()
+
+# enter a number : 4
+# *1
+# 21*
+# *123
+# 4321*
