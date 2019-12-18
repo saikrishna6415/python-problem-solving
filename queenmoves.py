@@ -84,6 +84,7 @@ def rightlowerdiagonal(m,x,y):
     temp=[]
     i = x+1
     j = y+1
+
     while (i < m and j < m):
         mat[i][j] = '.'
         temp.append([i,j])
@@ -107,7 +108,7 @@ def queen(m,x,y):
          print(i)
 
 
-queen(8,4,4)
+queen(8,2,0)
 
 
 # he possible moves by Queen are :
