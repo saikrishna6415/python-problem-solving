@@ -10,3 +10,4 @@ for i in range(len(arr))[::-1]:
     print(*(arr[i]+ arr[i][::-1]))
 for i in range(len(arr)):
     print(*(arr[i]+ arr[i][::-1]))
+    

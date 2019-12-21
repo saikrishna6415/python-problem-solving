@@ -20,17 +20,17 @@
 
 
 
-# s = "saikrishna"
-# s1 = set(s)
-# s1 = list(s1)
-# s1.sort()
-# s2 = [ ]
-# for i in range(len(s1)):
-#     s2.append(s.count(s1[i]))
-# s3 =[ ]
-# for i in range(len(s2)):
-#     s3.append(str(s2[i])+s1[i])
-# print("".join(s3))
+s = "saikrishna"
+s1 = set(s)
+s1 = list(s1)
+s1.sort()
+s2 = [ ]
+for i in range(len(s1)):
+    s2.append(s.count(s1[i]))
+s3 =[ ]
+for i in range(len(s2)):
+    s3.append(str(s2[i])+s1[i])
+print("".join(s3))
 
 
 

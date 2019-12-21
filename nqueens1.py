@@ -1,25 +1,17 @@
-
-
 def isSafe (board, row, col):
-    # check left row
-    for y in range(col):
+    for y in range(col):   #rows
         if board[row][y] == 1:
             return False
-    # check diagonal left top
-    for x, y in zip(range(row, -1, -1), range(col, -1, -1)):
+    for x, y in zip(range(row, -1, -1), range(col, -1, -1)):#left up diagonals
         if board[x][y] == 1:
             return False
-    # check diagonal left bottom
-    for x, y in zip(range(row, N, 1), range(col, -1, -1)):
-        print(board[x][y],end=" ")
+    for x, y in zip(range(row, N, 1), range(col, -1, -1)):#left down diagonas
         if board[x][y] == 1:
             return False
-
     return True
 
 def generateSolution(board, col):
-    # terminating condition
-    # all columns covered
+
     global N
     if col >= N:
         return True

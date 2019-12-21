@@ -68,7 +68,7 @@ def bishopmoves(m,x,y):
          print(i)
 
 
-bishopmoves(8,4,4)
+bishopmoves(8,1,1)
 
 
 # OUTPUT
