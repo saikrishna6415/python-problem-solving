@@ -85,15 +85,15 @@
 #         count += buckets[key] * (buckets[key]-1) // 2
 #     return count  
 
-arr = [10,-5,6]
-left = [ ]
-right = [ ]
-count = 0
-for i in range(len(arr)):
-    left.append(arr[i+1:])
-    right.append(arr[:i])
-print(left,right)
-for  i in range(len(arr)):
-    if sum(left[i])>sum(right[i]):
-        count+=1
-print(count)
+# arr = [10,-5,6]
+# left = [ ]
+# right = [ ]
+# count = 0
+# for i in range(len(arr)):
+#     left.append(arr[i+1:])
+#     right.append(arr[:i])
+# print(left,right)
+# for  i in range(len(arr)):
+#     if sum(left[i])>sum(right[i]):
+#         count+=1
+# print(count)
