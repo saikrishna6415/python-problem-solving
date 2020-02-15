@@ -60,7 +60,7 @@ def rookmoves(m,x,y):
          print(i)
 
 
-rookmoves(8,4,4)
+rookmoves(8,2,6)
 
 # the possible moves by rook are :
 # [[3, 4], [2, 4], [1, 4], [0, 4]]

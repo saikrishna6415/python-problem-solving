@@ -1,13 +1,5 @@
 # s=[value for value in range(0,20)]
 # print(s)
-
-
-# s=[value for value in range(0,10**6)]
-# print(s)
-
-# s=[value for value in range(1,20,2)]
-# print(s)
-
 # s=[value**3 for value in range(10)]
 # print(s)
 # for i in s[5:]:
@@ -60,7 +52,15 @@
 #     if name in friends:
 #         print(" Hi " + name.title() +
 #          ", I see your favorite language is " +
-#          favorite_languages[name].title() + "!")
+#          favorite_languages[name].title() + "!"
+
+
+# s=[value for value in range(0,10**6)]
+# print(s)
+
+# s=[value for value in range(1,20,2)]
+# print(s)
+
 
 # alien_0 = {'color': 'green', 'points': 5}
 # alien_1 = {'color': 'yellow', 'points': 10}
@@ -291,41 +291,49 @@
 #         del s[i]
 #         del s[i+1]
 # print(s)
+
+
+# n = 3
+# a = [[" " for i in range(n**2)]for j in range(n**2)]
+# for i in range(n**2):
+#     for j in range(n**2):
+#         if i == n**2-1 or j == n**2-1 or (j ==0 and i >=n**2-n) or ( i== n**2-n and j <n) or (i>=n and i<n**2-n and j ==n ) or (j>=n and j<n**2-n and i ==n ): 
+#             a[i][j]="*"
+#         if (i == 0 and j >=n**2-n and j<=n**2) or ( j == n**2-n and i>=0 and i<n):
+#             a[i][j]="*"
     
+# for i in range(len(a)):
+#     print(*a[i])
 
-# #Recursive solution for N-Queens problem in Python
-# from math import *
-# import sys
-
-# x = {}
-# n = int(sys.argv[1])
-
-# def place(k, i):
-#     if (i in x.values()):
-#         return False
-#     j = 1
-#     while(j < k):
-#         if abs(x[j]-i) == abs(j-k):
-#             return False
-#         j+=1
-#     return True
-# def clear_future_blocks(k):
-#     for i in range(k,n+1):
-#        x[i]=None
-# def NQueens(k):
-#     for i in range(1, n + 1):
-#         clear_future_blocks(k)
-#         if place(k, i):
-#             x[k] = i
-#             if (k==n):
-#                 for j in x:
-#                     print( x[j])
-#                 print ('---------')
-#             else:
-#                 NQueens(k+1)
+# n = 3
+# a = [[" " for i in range(n**2)]for j in range(n**2)]
+# for i in range(n**2):
+#     for j in range(n**2):
+#         if i == n**2-1 or j == n**2-1 :
+#             a[i][j]="*"
+        
+# for i in range(0,n**2,n):
+#     for j in range(0,n**2):
+#         if i >=n**2-i and j == 0:
+#             a[j][i]="*"
 
 
-# NQueens(1)
+# for i in range(len(a)):
+#     print(*a[i])
 
-a = [[1,2],[3,4]]
-print(sum(a,[]))
+
+sx1,sy1=4,3
+dx1,dy1=0,6
+xop=0
+if dx1==sx1else(+1 if dx1 > sx1 else-1)
+yop=0ifdy1==sy1else(+1 if dy1>sy1else-1)
+while(sx1!=dx1andsy1!=dy1):
+    sx1+=(xop)
+    sy1+=(yop)
+    print(sx1,sy1)
+xop=0
+if dx1==sx1else(+1ifdx1>sx1else-1)
+yop=0ifdy1==sy1else(+1ifdy1>sy1else-1)
+while(sx1!=dx1orsy1!=dy1):
+    sx1+=(xop)sy1+=(yop)
+    print(sx1,sy1)
